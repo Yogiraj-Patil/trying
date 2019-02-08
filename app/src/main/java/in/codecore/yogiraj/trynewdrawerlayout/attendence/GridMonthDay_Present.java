@@ -33,7 +33,7 @@ public class GridMonthDay_Present extends AppCompatActivity {
         ArrayList list1 = new ArrayList<String>();
         list1.add("pass");
 
-        ArrayList<Month_date_item> arrayList = new ArrayList<>();
+
 
 
     }
