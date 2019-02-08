@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.button.MaterialButton
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.material.TextButton"
+            android:text="Btn 1"/>
+
+    <android.support.design.button.MaterialButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.material.TextButton"
+            android:text="Btn 2"/>
+
+    <View android:layout_width="100dp"
+          android:layout_height="1dp"
+          android:background="@color/backgroundActivity"
+          />
+    <android.support.v7.widget.AppCompatImageView
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            app:srcCompat="@drawable/icon"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"/>
+
+</merge>
